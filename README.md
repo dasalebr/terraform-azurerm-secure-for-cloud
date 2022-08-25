@@ -48,7 +48,7 @@ consolidate.
 
 If you're unsure about what/how to use this module, please fill the [questionnaire](https://github.com/sysdiglabs/terraform-aws-secure-for-cloud/blob/master/use-cases/_questionnaire.md) report as an issue and let us know your context, we will be happy to help and improve our module.
 
-- There are several ways to deploy this in you AWS infrastructure, gathered under **[`/examples`](./examples)**
+- There are several ways to deploy this in you Azure infrastructure, gathered under **[`/examples`](./examples)**
   - [Single Subscription](./examples/single-subscription/README.md)
   - [Single Subscription with a pre-existing Kubernetes Cluster](./examples/single-subscription-k8s/README.md)
   - [Tenant Subscriptions](./examples/tenant-subscriptions/README.md)
