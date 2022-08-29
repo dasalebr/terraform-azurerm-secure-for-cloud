@@ -24,7 +24,7 @@ For other Cloud providers check: [AWS](https://github.com/sysdiglabs/terraform-a
 ## Permissions
 
 - Threat Detection feature requires `Contributor` subscritpion-level role user assignment
-    - For AD diagnostic `Security Administrator` role must be granted to at Organizational level.
+    - For AD diagnostic `Security Administrator` role must be granted to at Organizational level. Requirement from Microsoft: https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/howto-integrate-activity-logs-with-log-analytics#prerequisites 
 
       Otherwise, it can be disabled setting `deploy_active_directory=false` on all examples
 - For scanning, an App (with its Service Principal) is required to be created in the ActiveDirectory, to enable
